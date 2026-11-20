@@ -1,10 +1,10 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit";
 
 const initialState = [
-  { id: "1", title: "The Legend of Zelda: Breath of the Wild", genre: "Aventure", platform: "Switch", price: 59.99, image: "" },
-  { id: "2", title: "Hollow Knight", genre: "Metroidvania", platform: "PC", price: 14.99, image: "" },
+  { id: "1", title: "The Legend of Zelda: Breath of the Wild", genre: "Aventure", platform: "Switch", price: 59.99, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf_Aquf2E4jSVa9tm4EmBlBRwpG4h-oJqlOo_K5qPqjA&s" },
+  { id: "2", title: "Hollow Knight", genre: "Metroidvania", platform: "PC", price: 14.99, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT42jjBuky3nYcETUVhiRtpVyP_IjNoQwDEnL0yjJmK6A&s=10" },
   { id: "3", title: "God of War Ragnarök", genre: "Action", platform: "PS5", price: 69.99, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbwDxYPemiwvL-2PvOFsQedw1oGNABfJRTilnlAet-nlt3o_avlBPt44xvzOEGUve5aOraZ8Jp-Q2Ulycnf8r7iO_oeBeXTStGglxxRKVmRw&s=10" },
-  { id: "4", title: "Forza Horizon 5", genre: "Course", platform: "Xbox", price: 49.99, image: "" },
+  { id: "4", title: "Forza Horizon 5", genre: "Course", platform: "Xbox", price: 49.99, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKq_eINHbfhOThv-dIO-vtTfBWFtKU5H65lNji5nQwTg&s=10" },
   { id: "5", title: "Celeste", genre: "Plateforme", platform: "PC", price: 19.99, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp55c3bXIYrbQbcwBRINU4yLatuGFNA_O3Bhp3BR_9TWhbpZR0Ah3dcsJEJy5GdqE5AqIbHyZRTjE15PcSAIK0tiowcX7uFqLpSPguK96jXA&s=10" },
   { id: "6", title: "Stardew Valley", genre: "Simulation", platform: "Switch", price: 14.99, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMRCgU1yThY-bHetvCP-6edLutrfymn56cqATZBanfwbkYsy93X6XpN2vIMeKO_aHTqvR9UywekEWlNfK0jZswk1KyCBJ23Bzq8tZU3GfGHg&s=10" },
   { id: "7", title: "Elden Ring", genre: "RPG", platform: "PS5", price: 59.99, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc3hekteuvNLEL1YcsRIZig26piNI2rB_9-4_t1I_3XGW4Ab64IWooWhspA9jSCLcbnUgZzr3bTgcWHdf2QaHGH6sFBhYuUQ3jDS9TVcVR&s=10" },
